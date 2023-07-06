@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+:root   {
+    --cor-1: #f2df80;
+    --cor-2: #e6ce44; /* #F2C879 */
+    --cor-fundo: #85495f6e;
+    --cor-fundo2: #8b2c4f6e;
+    --cor-fundo-borda: #57e0d7;    
+} 
+
+body    {
+    -webkit-text-stroke: 0.1px black;
+    font-family: 'Concert One', cursive;
+    color: var(--cor-2);
+    font-weight: normal;
+    margin: 0;
+    background-color: #f2a2bf6e;
+}
+
+hr  {
+    border-radius: 100px;
+    width: 98%;
+    height: 2px;
+    border-color: var(--cor-2);
+    background-color: var(--cor-2);
+}
+
+header  {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-1);
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 3.5px solid var(--cor-2);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.384);
+}
+
+#apresentation img  {
+    width: 100%;
+}
+
+main    {
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: var(--cor-fundo2);
+    border: 2px solid var(--cor-fundo-borda);
+    padding-bottom: 1.5em;
+}
+
+@media (max-width: 750px)   {
+    main    {
+        width: 100%;
+    }
+}
+
+main h3 {
+    font-size: 2em;
+    margin: 10px;
+    text-align: center;
+}
+
+main .artes {
+    max-width: 1920px;
+    margin: 12px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+main .artes div > div   {
+    justify-content: space-around;
+    margin: 0px 100px 0px 100px;
+    transition: 0.1s;
+    max-width: 100px;
+    max-height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    padding:10px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.616);
+    border: 5px solid wheat;
+}
+
+main .artes div > div:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+}
+
+main .artes div > div img {
+    width: 100%;
+    height: 100%;
+}

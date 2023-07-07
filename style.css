@@ -19,6 +19,11 @@ body    {
     background-color: #f2a2bf6e;
 }
 
+p   {
+    color: black;
+    font-family: ;
+}
+
 hr  {
     border-radius: 100px;
     width: 98%;
@@ -39,11 +44,21 @@ header  {
     box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.233);
 }
 
+main    {
+    width: 85%;
+    max-width: 1200px;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(255, 251, 243);
+    border: 2px solid var(--cor-fundo-borda);
+}
+
 #apresentation img  {
     width: 100%;
 }
 
-main    {
+#artes    {
+    height: auto;
     width: 90%;
     max-width: 1280px;
     margin: auto;
@@ -51,21 +66,22 @@ main    {
     background-color: var(--cor-fundo2);
     border: 2px solid var(--cor-fundo-borda);
     padding-bottom: 1.5em;
+    
 }
 
 @media (max-width: 750px)   {
-    main    {
+    #artes    {
         width: 100%;
     }
 }
 
-main h3 {
+h3 {
     font-size: 2em;
     margin: 5px;
     text-align: center;
 }
 
-main .artes {
+#artes #arte {
     max-width: 1920px;
     margin: 12px auto;
     display: flex;
@@ -74,7 +90,8 @@ main .artes {
     padding-bottom: 10px;
 }
 
-main .artes div > div   {
+#artes #arte div  div   {
+    
     justify-content: space-around;
     margin: 0px 100px 0px 100px;
     transition: 0.1s;
@@ -87,12 +104,12 @@ main .artes div > div   {
     border: 5px solid wheat;
 }
 
-main .artes div > div:hover {
+#artes #arte div  div:hover {
     transform: scale(1.03);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 }
 
-main .artes div > div img {
+#artes #arte div  div img {
     width: 100%;
     height: 100%;
 }

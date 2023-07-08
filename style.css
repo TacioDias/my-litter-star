@@ -21,7 +21,7 @@ body    {
 
 p   {
     color: black;
-    font-family: ;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 hr  {
@@ -70,7 +70,7 @@ main    {
 }
 
 @media (max-width: 750px)   {
-    #artes    {
+    #artes, main    {
         width: 100%;
     }
 }

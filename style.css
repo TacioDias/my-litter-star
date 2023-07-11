@@ -38,7 +38,7 @@ h3 {
 p   {
     text-align: justify;
     font-size: 1em;
-    margin: 2px;
+    margin: 6px;
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
@@ -83,7 +83,6 @@ main    {
     margin: auto;
     border-radius: 20px;
     background-color: var(--cor-fundo2);
-    border: 2px solid var(--cor-fundo-borda);
     padding-bottom: 1.5em;
     
 }
@@ -92,6 +91,9 @@ main    {
     #artes, main    {
         width: 100%;
         padding: 5px 0 5px 0 ;
+    }
+    header  {
+        margin:  0 2px 0 2px;
     }
 }
 

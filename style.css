@@ -28,7 +28,7 @@ body    {
 p   {
     text-align: justify;
     font-size: 1em;
-    margin: 0;
+    margin: 2px;
     color: black;
     font-family: 'Montserrat', sans-serif;
 }

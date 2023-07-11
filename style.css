@@ -2,13 +2,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root   {
     --cor-1: #f2df80;
     --cor-2: #e6ce44; /* #F2C879 */
     --cor-fundo: #85495f6e;
     --cor-fundo2: #8b2c4f6e;
     --cor-fundo-borda: #57e0d7;    
-} 
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
+}
 
 body    {
     -webkit-text-stroke: 0.1px black;
@@ -20,8 +26,11 @@ body    {
 }
 
 p   {
+    text-align: justify;
+    font-size: 1em;
+    margin: 0;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 hr  {
@@ -47,8 +56,9 @@ header  {
 main    {
     width: 85%;
     max-width: 1200px;
-    height: 100px;
+    height: auto;
     margin: auto;
+    padding: 5px;
     background-color: rgb(255, 251, 243);
     border: 2px solid var(--cor-fundo-borda);
 }
@@ -58,7 +68,6 @@ main    {
 }
 
 #artes    {
-    height: auto;
     width: 90%;
     max-width: 1280px;
     margin: auto;

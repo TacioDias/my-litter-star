@@ -49,7 +49,6 @@ p   {
     text-align: justify;
     font-size: 1em;
     margin: 0px;
-    text-indent: 20px;
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
@@ -102,7 +101,7 @@ main    {
 @media (max-width: 750px)   {
     #artes, main    {
         width: 100%;
-        padding: 5px 0 5px 0 ;
+        padding: 5px 5px 5px 5px ;
     }
 
     #artes   {

@@ -28,7 +28,7 @@ i   {
     padding: 0 3px 0 3px;
     border-radius: 26%;
     margin: 10px 10px 10px 0 ;
-    font-size: clamp(3em, 10vw, 4em);
+    font-size: clamp(3.5em, 10vw, 4em);
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.616);
 }
 

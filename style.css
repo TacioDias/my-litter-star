@@ -137,6 +137,11 @@ img {
     border-radius: 10px;
     border: 2px solid #57e0d7;
     margin: 10px 10px 0 10px;
+    transition: 0.5s;
+}
+
+img:hover  {
+    ;
 }
 
 
@@ -163,8 +168,10 @@ img {
     }
 
     img {
+        margin: 10px 0 10px 0;
         width: 80%;
         height: 50vh;
+        max-height: 500px;
     }
 
     #artes #arte div div img {

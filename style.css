@@ -168,7 +168,7 @@ main    {
     #artes,#bpc   {
         background-image: url('fondo-main2.png')/*var(--cor-fundo2)*/;
         background-attachment: local;
-        background-size: 100% 140%;
+        background-size: 100%;
         border-radius: 0 0 10px 10px;
     }
 

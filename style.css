@@ -24,6 +24,7 @@ html {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*pode ser transparent também*/
 }
 
+
 i   {
     padding: 0 3px 0 3px;
     border-radius: 26%;
@@ -81,12 +82,17 @@ hr  {
     background-color: var(--cor-2);
 }
 
+.back-home   {
+    color: #e6ce44;
+    font-size: clamp(1em, 10vw, 2.5em);
+}
+
 header  {
     margin: auto;
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: var(--cor-1);
     border-radius: 0px 0px 10px 10px;
     border-bottom: 3.5px solid var(--cor-2);
@@ -105,7 +111,9 @@ main    {
     
 }
 
-#apresentation img  {
+
+
+#apresentation  {
     max-width: 350px;
     min-width: 220px;
     width: 20vw;
